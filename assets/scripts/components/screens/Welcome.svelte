@@ -8,7 +8,8 @@
 <Skeleton>
   <section class="screen" id="welcome">
     {#if showWelcome}
-      <h2>Créez votre petit site pour un·e candidat·e du Nouveau Front Populaire !</h2>
+       <h2>Le Nouveau Front Populaire a gagné, youpi !</h2>
+      <p>Scribouilli 2024 se ferme donc, si vous voulez l'utiliser pour créer un petit site pour votre association, c'est possible sur <a href="https://atelier.scribouilli.org/">https://atelier.scribouilli.org/</a></p>
 
       <a href="./choose-account" class="btn">C'est parti !</a>
     {:else if isFetchingCurrentUserRepos }
